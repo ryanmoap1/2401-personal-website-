@@ -27,11 +27,35 @@ header > div {
 img {
   height: 100%;
 }
-h1 {
+.picture1 {
+  height: 50%;
+}
+
+.picture3 {
+  height: 40%;
+}
+
+.picture4 {
+  height: 30%;
+  width: 40vw;
+}
+
+.para4 {
+  display: flex;
+  justify-content: right;
+}
+
+h1,
+h2,
+h3 {
   margin-left: 1rem; /* Moves away from title logo */
-  color: rgb(235, 140, 140);
+  color: rgb(50, 48, 48);
   display: flex;
   justify-content: center;
+}
+
+.name {
+  color: rgb(152, 70, 70);
 }
 
 nav > a {
@@ -43,8 +67,8 @@ nav > a {
 
 /* Start of Main */
 main {
-  height: 80vh;
-  min-width: 80vw; /* vw and vh are percentage based of full page  */
+  height: 150vh;
+  min-width: 75vw; /* vw and vh are percentage based of full page  */
   background-color: rgb(178, 239, 241);
 }
 
@@ -68,5 +92,5 @@ body > div {
 footer {
   width: 100vw;
   background-color: gray;
-  height: 100vh;
+  height: 5%;
 }
