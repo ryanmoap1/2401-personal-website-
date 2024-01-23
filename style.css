@@ -30,7 +30,7 @@ body {
   
   h1 {
     margin-left: 1rem; /* Moves away from title logo */
-    color: white;
+    color: rgb(235, 140, 140);
   }
   
   nav > a {
@@ -44,13 +44,13 @@ body {
   main {
     height: 80vh;
     min-width: 80vw; /* vw and vh are percentage based of full page  */
-    background-color: cadetblue;
+    background-color: rgb(178, 239, 241);
   }
   
   aside {
     min-width: 80vh;
     min-width: 100vw;
-    background-color: coral;
+    background-color: rgb(109, 91, 84);
   }
   
   body {
