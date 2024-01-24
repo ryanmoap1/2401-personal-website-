@@ -29,6 +29,7 @@ img {
 }
 .picture1 {
   height: 50%;
+  align-items: center;
 }
 
 .picture3 {
@@ -37,12 +38,14 @@ img {
 
 .picture4 {
   height: 30%;
-  width: 40vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
 }
 
 .para4 {
   display: flex;
-  justify-content: right;
+  justify-content: center;
 }
 
 h1,
@@ -67,15 +70,9 @@ nav > a {
 
 /* Start of Main */
 main {
-  height: 150vh;
-  min-width: 75vw; /* vw and vh are percentage based of full page  */
+  min-height: 100vh;
+  min-width: 100vw; /* vw and vh are percentage based of full page  */
   background-color: rgb(178, 239, 241);
-}
-
-aside {
-  min-width: 80vh;
-  min-width: 100vw;
-  background-color: rgb(109, 91, 84);
 }
 
 body {
